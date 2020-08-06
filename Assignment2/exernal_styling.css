@@ -1,0 +1,15 @@
+.abc {
+    color: black;
+    background:red;
+
+    margin-bottom: 16px;
+    padding: 12px;
+
+    font-size: 24px;
+    font-family: cursive;
+    text-align: center;
+  }
+
+  html,body{
+      margin:0;
+  }
