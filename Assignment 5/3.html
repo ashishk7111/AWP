@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <script src="3.js"></script>
+
+    <style>
+        html,
+        body {
+            margin: 0px;
+        }
+
+        .back {
+            background: black;
+            height: 100vh;
+            color: white;
+            display: flex;
+            flex-direction: column;
+
+            font-size: 40px;
+            border: 2px solid white;
+        }
+
+        .like-comment {
+            border: 20px solid white;
+
+        }
+
+        #btnid {
+            font-size: 40px;
+
+        }
+
+        #btncmt {
+            font-size: 40px;
+            margin-left: 20px;
+        }
+
+        #commentBox {
+            border: 2px solid white;
+            height: 100vh;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="back">
+        <div>Hello</div>
+        <div>
+            <div class="like-comment">
+                <button id="btnid" onclick="likebutton()">
+                    Like 1</button>
+                <button id="btncmt" onclick="commentbutton()">Comment</button>
+            </div>
+        </div>
+
+        <!-- Will Contain all the comment-->
+        <div id="commentBox"></div>
+    </div>
+</body>
+
+</html>
